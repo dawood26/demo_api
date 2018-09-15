@@ -1,0 +1,51 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'registration/bootstrap.css' %}">
+
+<p></p>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-2">
+
+    </div>
+    <div class="col-sm-8">
+     <p class="h2">Django REST Service Demo</p>
+    </div>
+    <div class="col-sm-2">
+
+    </div>
+  </div>
+</div>
+<p></p>
+<div class="container">
+
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Description</th>
+      <th scope="col">Url or Endpoint</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Insert or Post a new item</td>
+      <td>http://127.0.0.1:8000/students/create/</td>
+
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>List all items</td>
+      <td>http://127.0.0.1:8000/students/list/</td>
+
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Get Details of a Single Item</td>
+      <td>http://127.0.0.1:8000/students/1/</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
